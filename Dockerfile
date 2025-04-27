@@ -13,4 +13,4 @@ RUN pip install pipenv && \
     pipenv install --system --deploy
 
 # Вказуємо команду для запуску
-CMD ["python", "./__main__.py"]
+ENTRYPOINT ["python", "./__main__.py"]
